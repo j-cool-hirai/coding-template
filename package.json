@@ -1,0 +1,29 @@
+{
+  "name": "arcs",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "start": "browser-sync start --server --files='./*.html, ./*.js'",
+    "sass": "sass assets/scss/:assets/css/ --update --no-source-map --watch",
+    "dev": "run-p start sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-cool-hirai/keihin-ferry"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.55.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "npm-run-all": "^4.1.5"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not IE 11",
+    "not dead"
+  ]
+}

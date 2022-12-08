@@ -1,0 +1,8 @@
+@charset "UTF-8";
+@use "sass:math";
+
+// px→rem 変換
+$baseFontSize: 16;
+@function rem($pixels) {
+  @return calc($pixels / $baseFontSize) * 1rem;
+}
